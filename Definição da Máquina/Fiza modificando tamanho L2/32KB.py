@@ -80,7 +80,7 @@ class L2Cache(BaseCache):
     """Cache L2 compartilhada com parâmetros padrões"""
 
     ## Tamanho da cache L2
-    size = '512kB'
+    size = '32kB'
     ## Associatividade da cache L2
     assoc = 4
     ## Latência do hit da cache L2
