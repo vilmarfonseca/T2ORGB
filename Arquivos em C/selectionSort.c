@@ -10,9 +10,9 @@ void selectionSort(int vetor[], int tamanho )
 
     for( i = 0; i < tamanho - 1; i++ )
     {
-        iMenor = i; // Assume que o menor é o atual
+        iMenor = i; // Assume que o menor ï¿½ o atual
 
-        // Faz a busca por um número menor que o atual, a direita
+        // Faz a busca por um nï¿½mero menor que o atual, a direita
         for( iBusca = i + 1; iBusca < tamanho; iBusca++ )
         {
             if( vetor[iBusca] < vetor[iMenor] )
@@ -21,7 +21,7 @@ void selectionSort(int vetor[], int tamanho )
             }
         }
 
-        // Se encontrou algum número menor, troca
+        // Se encontrou algum nï¿½mero menor, troca
         if( i != iMenor )
         {
             aux = vetor[i];
@@ -57,7 +57,7 @@ void mostrar_vetor(int *ptr, int tamanho){
 }
 
 int main() {
-    int *ptr, tamanho = 20, seed = 24, i;
+    int *ptr, tamanho = 1000, seed = 24, i;
 
     ptr = (int*) calloc(tamanho, sizeof(int));
 

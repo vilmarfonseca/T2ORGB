@@ -54,7 +54,7 @@ void mostrar_vetor(int *ptr, int tamanho){
 
 
 int main() {
-    int *ptr, tamanho = 20, seed = 24, i;
+    int *ptr, tamanho = 1000, seed = 24, i;
 
     ptr = (int*) calloc(tamanho, sizeof(int));
 
