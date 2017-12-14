@@ -40,7 +40,7 @@ void popular(int *ptr, int tamanho, int seed)
 
     srand((unsigned) seed);
     for(i = 0 ; i < tamanho ; i++ ) {
-        *(ptr + i) = rand() % 50;
+        *(ptr + i) = rand() % 15000;
     }
 }
 
