@@ -38,9 +38,9 @@ class L1ICache(L1Cache):
     """Cache L1 de instruções"""
 
     ## Tamanho da cache L1-I
-    size = '32kB'
+    size = '4kB'
     ## Associatividade da cache L1-I
-    assoc = 4
+    assoc = 2
     ## Latência do hit da cache L1-I
     hit_latency = 2
     ## Latência do miss da cache L1-I
@@ -59,9 +59,9 @@ class L1DCache(L1Cache):
     """Cache L1 de dados com parâmetros padrões"""
 
     ## Tamanho da cache L1-D
-    size = '32kB'
+    size = '4kB'
     ## Associatividade da cache L1-D
-    assoc = 4
+    assoc = 8
     ## Latência do hit da cache L1-D
     hit_latency = 4
     ## Latência do miss da cache L1-D
@@ -80,9 +80,9 @@ class L2Cache(BaseCache):
     """Cache L2 compartilhada com parâmetros padrões"""
 
     ## Tamanho da cache L2
-    size = '4MB'
+    size = '256kB'
     ## Associatividade da cache L2
-    assoc = 8
+    assoc = 4
     ## Latência do hit da cache L2
     hit_latency = 16
     ## Latência do miss da cache L2
